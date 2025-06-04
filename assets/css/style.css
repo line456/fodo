@@ -1,0 +1,24 @@
+#login{
+width: 100px;/*aumenta a largura*/
+height: 40px; /*aumentar a altura */
+background-color: red;
+color: #ffffff;
+border-radius: 20px;/*torna as bordas redondas*/
+border: none; /*tira as bordas */
+}
+.menu{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner{
+    width: 450px;
+    height: 450px;
+
+}
