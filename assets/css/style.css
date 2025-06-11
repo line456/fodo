@@ -1,7 +1,7 @@
 #login{
 width: 100px;/*aumenta a largura*/
 height: 40px; /*aumentar a altura */
-background-color: red;
+background-color: rgb(206, 46, 46);
 color: #ffffff;
 border-radius: 20px;/*torna as bordas redondas*/
 border: none; /*tira as bordas */
@@ -18,8 +18,8 @@ flex-direction: row;
     align-items: center;
 }
 #banner{
-    width: 450px;
-    height: 450px;
+    width: 600px;
+    height: 600px;
 
 }
 .texto-banner{
@@ -28,8 +28,7 @@ flex-direction: row;
 
 }
 .caixa-texto{
-    width: 500px;
-    background-color: beige;
+    width: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,4 +42,53 @@ flex-direction: row;
 .titulo{
     display: flex;
     align-items: center;
+}
+#food{
+    color: rgb(206,46, 46);
+}
+#btn-get{
+    width: 100px;/*aumenta a largura*/
+    height: 40px; /*aumentar a altura */
+    background-color: rgb(206, 46, 46);
+    color: #ffffff;
+    border-radius: 20px;/*torna as bordas redondas*/
+    border: none; /*tira as bordas */ 
+}
+.titulo-secundarios{
+    color: rgb(206, 46, 46);
+    font-weight: 500;
+}
+.caixatitulo{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+    
+}
+.titulo-primarios{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.caixa-geral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   
+}
+.texto{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 245px;
 }
