@@ -145,6 +145,29 @@ margin-top: -80px;
     align-items: center;
     flex-direction: column;
     text-align: left;
-
-    
+} 
+.titulo-principal{
+    font-weight: bolder;
+    font-size:15px; 
 }
+.rodape{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    align-items:start;
+    gap:2px;
+    margin-top: 50px;
+
+}
+
+.texto-rodape{
+    width: 280px;
+}
+#email{
+    margin-top: 20px;
+    background-color:#ffffff;
+    border-radius:50px ; 
+    width: 180px;/*aumenta a largura*/
+    height: 40px; /*aumentar a altura */
+}
+
